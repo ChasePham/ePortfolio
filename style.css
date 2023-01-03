@@ -40,3 +40,13 @@
 
     background: url(image.png); 
 }
+
+.github{
+    position: absolute;
+    width: 79.55px;
+    height: 70px;
+    left: 1292px;
+    top: 66px;
+
+    background: url(image.png);
+}
