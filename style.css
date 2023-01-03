@@ -1,0 +1,15 @@
+.Name-Header {
+    position: absolute;
+    width: 608px;
+    height: 106px;
+    left: 43px;
+    top: 57px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 136px;
+
+    color: #000000;
+}
