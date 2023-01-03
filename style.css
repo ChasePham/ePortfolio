@@ -101,3 +101,30 @@
     color: #000000;
 
 }
+
+.Work-Header {
+    position: absolute;
+    width: 514px;
+    height: 54px;
+    left: 499px;
+    top: 812px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+
+    color: #000000;
+
+}
+
+.UT{
+    position: absolute;
+    width: 100px;
+    height: 196.8px;
+    left: 487px;
+    top: 935px;
+
+    background: url(clipart467355.png); 
+}
