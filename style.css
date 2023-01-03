@@ -164,3 +164,13 @@
     color: #000000;
 
 }
+
+.Amazon-figure{
+    position: absolute;
+    width: 200px;
+    height: 60.19px;
+    left: 445px;
+    top: 1239px;
+
+    background: url(pngwing.png);
+}
