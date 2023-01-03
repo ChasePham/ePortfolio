@@ -50,3 +50,37 @@
 
     background: url(image.png);
 }
+
+.intro-header{
+    position: absolute;
+    width: 452px;
+    height: 58px;
+    left: 561px;
+    top: 319px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+
+    color: #000000;
+
+}
+
+.intro-description {
+    position: absolute;
+    width: 609px;
+    height: 183px;
+    left: 468px;
+    top: 394px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+
+}
