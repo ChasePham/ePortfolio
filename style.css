@@ -13,3 +13,20 @@
 
     color: #000000;
 }
+
+.titles{
+    position: absolute;
+    width: 257px;
+    height: 27px;
+    left: 1115px;
+    top: 149px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+
+}
