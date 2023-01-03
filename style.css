@@ -30,3 +30,13 @@
     color: #000000;
 
 }
+
+.linked-in{
+    position: absolute;
+    width: 67px;
+    height: 70px;
+    left: 1173px;
+    top: 66px;
+
+    background: url(image.png); 
+}
