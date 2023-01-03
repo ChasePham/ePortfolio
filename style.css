@@ -60,7 +60,7 @@
 
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 40px;
     line-height: 55px;
 
@@ -111,7 +111,7 @@
 
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 40px;
     line-height: 55px;
 
@@ -207,6 +207,25 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.Projects-Header{
+
+    position: absolute;
+    width: 1269px;
+    height: 186px;
+    left: 128px;
+    top: 1482px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
     text-align: center;
 
     color: #000000;
