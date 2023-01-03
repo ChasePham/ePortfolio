@@ -84,3 +84,20 @@
     color: #000000;
 
 }
+
+.summary {
+    position: absolute;
+    width: 599px;
+    height: 81px;
+    left: 468px;
+    top: 624px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+
+}
