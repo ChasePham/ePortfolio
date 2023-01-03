@@ -174,3 +174,22 @@
 
     background: url(pngwing.png);
 }
+
+.Amazon-Header{
+    position: absolute;
+    width: 353px;
+    height: 55px;
+    left: 738px;
+    top: 1211px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
