@@ -146,3 +146,21 @@
     color: #000000;
 
 }
+
+.UTAustin-text{
+    position: absolute;
+    width: 313px;
+    height: 24px;
+    left: 738px;
+    top: 990px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+
+}
