@@ -426,3 +426,43 @@ color: #000000;
     color: #000000;
     
 }
+
+.Contact-Title{
+    position: absolute;
+    width: 220px;
+    height: 55px;
+    left: 609px;
+    top: 3383px;
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.Contact-Info{
+    position: absolute;
+    width: 587px;
+    height: 28px;
+    left: 426px;
+    top: 3461px;
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+}
