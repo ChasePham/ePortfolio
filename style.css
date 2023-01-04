@@ -1,6 +1,10 @@
 body{
     min-height: 440vh; /* This changes the height of the page (Increase to make a larger page) */
 }
+button{
+    background-color: white;
+    border: none;
+}
 .Name-Header {
     position: absolute;
     width: 608px;
