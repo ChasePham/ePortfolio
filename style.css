@@ -40,31 +40,34 @@ button{
 .instagram{
 
     position: absolute;
-    width: 71px;
-    height: 69px;
-    left: 1050px;
-    top: 67px;
+    width: 30px;
+    height: 34px;
+    left: 1203px;
+    top: 102px;
     
     background: url(instagram-128.png);
 }
 
 .linked-in{
-    position: absolute;
-    width: 67px;
-    height: 70px;
-    left: 1173px;
-    top: 66px;
+/* image 3 */
 
-    background: url(image.png); 
+
+position: absolute;
+width: 31px;
+height: 34px;
+left: 1271px;
+top: 102px;
+
+background: url(image.png);
 }
 
 .github{
     position: absolute;
-    width: 79.55px;
-    height: 70px;
-    left: 1292px;
-    top: 66px;
-
+    width: 32px;
+    height: 34px;
+    left: 1340px;
+    top: 102px;
+    
     background: url(image.png);
 }
 
@@ -72,16 +75,17 @@ button{
     position: absolute;
     width: 452px;
     height: 58px;
-    left: 561px;
-    top: 319px;
-
+    left: 588px;
+    top: 338px;
+    
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 55px;
-
+    
     color: #000000;
+    
 
 }
 
@@ -97,7 +101,7 @@ button{
     font-weight: 500;
     font-size: 20px;
     line-height: 27px;
-
+    text-align: center;
     color: #000000;
 
 }
