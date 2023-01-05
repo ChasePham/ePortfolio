@@ -37,6 +37,16 @@ button{
     color: #000000;
 
 }
+.instagram{
+
+    position: absolute;
+    width: 71px;
+    height: 69px;
+    left: 1050px;
+    top: 67px;
+    
+    background: url(instagram-128.png);
+}
 
 .linked-in{
     position: absolute;
