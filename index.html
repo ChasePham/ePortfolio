@@ -1,142 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chase Pham</title>
-    <link rel="stylesheet", href = "style.css"/>
-</head>
-<body>
-    <div>
-        <div class = "Name-Header">
-            Chase Pham.
-        </div>
-        <div class = "titles">
-            undergraduate • tutor • swe 
-        </div>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Chase Pham</title>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <button type="button" onclick="location.href='https://www.linkedin.com/in/chasepham/'">
-            <div class = "linked-in">
-                <img src="images/linkedin.png" alt="DNE">
+        <!-- Fonts-->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Cardo&family=Elsie+Swash+Caps:wght@900&family=Quicksand&family=Sora&display=swap" \
+         rel="stylesheet">
+
+        <!--CDN CSS Link of Bootstrap-->
+        <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!--CDN LINKS FOR JS and icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
+     referrerpolicy="no-referrer" />
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+        
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+      <!--Nav bar-->
+      <div class="nnavbar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CP.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            
+            <!--Nav items-->
+
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#About-me">A Little About Me</a>
+              <a class="nav-link" href="#cta">Connect With Me</a>
             </div>
-        </button>
 
-        <button type="button" onclick="location.href='https://github.com/ChasePham'">
-            <div class = "github">
-                <img src = "images/github.png" alt = "DNE">
+          </div>
+        </div>
+      </nav>
+      </div>
+
+      <!--SECTION FOR NAME n photo-->
+
+      <div class="head-section">        
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="header">Hello, I'm Chase. </p>
+            <div class="header-under">
+              I'm a Student at the University of Texas at Austin and a Software Engineer!
             </div>
-        </button>
+          
+          </div>
+          
+          <div class="col-lg-6" id="png-img">
+            <div class="title-image">
+            <img src="images/prof_pic.jpg">
+          </div>
+          </div>
+        </div>
+       </div>
 
-        <button type="button" onclick="location.href='https://www.instagram.com/chassepham/?hl=en'">
-            <div class = "instagram">
-                <img src = "images/instagram-128.png" alt = "DNE">
-            </div>
-        </button>
+       <!--About me section-->
 
-        <div>
-            <div class = "intro-header">
-                A Brief Introduction
-            </div>
-            <div class = "intro-description">
-                Right now, I am a Junior at the University of Texas at Austin studying Neuroscience where I recently
-                 made the transition from pursuing pre-med to SWE. While I am not a CS major, I try my best to take as many classes relevant to my career goals, and 
-                 focus my own time to learn new CS concepts. My long term goals are not fully set in stone, but right now I am interested to learning more
-                 about the data science field and potentially lead into working with Deep Learning technology :)
-            </div>
-            <div class = "summary">
-                <br>
-                UT Austin UGCA • Incoming @Amazon →<br>
-                Paetow High School ‘20 • Baylor University ‘21 • UT Austin ‘24 →<br>
-                Houston • Austin →
-            </div>
+       <section id="About-me">
+        <div class="Box">
+        <div class="info">
+          About me <br><hr>
+        </div>
+        <br>
+        <div class="info-text">
+          <p>As a beginner Software developer, I am excited to learn and grow in my field. I recently made a transition from pre-health to my 
+            original dream of developing software and within a span of one year, I've taught students programming, attended successful 
+            programming competitions, and showcased many of my projects to hundreds of people. </p>
+          <p>On my own time, I have developed and deployed life-changing projects in teams where I aim to learn new frameworks and tools 
+            that help me in the Software Engineering world. I also enjoy networking with other successful Software Engineers to learn their journies.</p>
+          <p>
+          I am currently learning about machine learning products such as Google Bard and ChatGPT, and the computer architecture 
+          that compiles these tools into the real world. I want to eventually be part of these developing teams and deploy similar products into 
+          peoples homes as AI companions.</p>
+          
+        </div>
+      </div>
+       </section>
 
-        </div>
-        <div class = "Work-Header"> 
-            Work/Incoming Experiences
-        </div>
+       <!--Footer section-->
 
-        <div class = "UT-figure">
-            <img src = "images/UT.png" alt = "DNE">
+       <section>
+        <div id="cta">
+          <div class="social">
+            <div class="connect">
+            Let's Connect!</div>
+            <br>
+            <a href="https://www.instagram.com/chassepham/"> <i class="fab fa-2xl fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/chasepham/"> <i class="fab fa-2xl fa-linkedin"></i></a>
+            <a href="https://github.com/ChasePham"> <i class="fab fa-2xl fa-github"></i></a>
+          </div>
         </div>
-
-        <div class = "UTAustin-header">
-            UT Austin
-        </div>
-
-        <div class = "UTAustin-text"> 
-            Undergraduate Course Assistant
-            Elements of Computing CS303E (Intro Python Course)
-        </div>
-
-        <div class = Amazon-figure>
-            <img src = "images/amazon.png" alt = "DNE">
-        </div>
-        <div class = Amazon-Header>
-            Amazon (Incoming)
-        </div>
-        <div class = Amazon-Description>
-            Software Development Engineer Intern
-            AWS Galaxy Team
-        </div>
-
-        <div class = "Projects-Header">
-            Some projects I have developed within my lifetime. Please navigate to the Github link at the top to see 
-            more info about an individual project.
-        </div>
-        <div class = "Vault-Pic">
-            <img src="images/Vault.png" alt = "DNE">
-        </div>
-        <div class = "Twitter-Pic">
-            <img src = "images/Twitter.png" alt = "DNE">
-        </div>
-        <div class = "Spotify-Pic">
-            <img src = "images/Spotify.png" alt = "DNE">
-        </div>
-        <div class = "Boba-Pic">
-            <img src = "images/Boba.png" alt = "DNE">
-        </div>
-
-        <div class = "Vault-Title">
-            The Vault Music Discovery App
-        </div>
-        <div class = "Vault-Description">
-            A full stack app that utilizes the Spotify API, <b>python</b>, <b>React</b>, and Expo to create 
-            a discovery page for non-mainstream artists.<br>
-            <br>Industry: Arts and Entertainment
-        </div>
-        <div class = "Twitter-Title">
-            UTAustinTwitterBot
-        </div>
-        <div class = "Twitter-Description">
-            A Twitter-bot that uses the Twitter API with <b>python</b> to track and filter a hub of 
-            University of Texas events in real time.<br>
-            <br>Industry: Social Media
-        </div>
-
-        <div class = "Spotify-Title">
-            SpotifyMusicPlayer
-        </div>
-        <div class = "Spotify-Description">
-            A Spotify-based music player that uses Vanilla <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> 
-            that lists and plays R&B music onto its own web application.<br>
-            <br>Industry: Arts and Entertainment
-        </div>
-
-        <div class = "Boba-Title">
-            Boba Tea Data Analysis
-        </div>
-        <div class = "Boba-Description">
-            A data analysis that utilizes <b>Jupyter Notebook</b> and datasets from Kaggle to
-            confirm and reject hypothesis towards boba stores located in the Bay Area<br>
-            <br>Industry: Data Science/Analysis and Visualizations
-        </div>
-        <div class = "Contact-Title">
-            Contact Info
-        </div>
-        <div class = "Contact-Info">
-            chasejpham@gmail.com
-        </div>
-    </div>
-</body>
+       </section>
+    </body>
 </html>
